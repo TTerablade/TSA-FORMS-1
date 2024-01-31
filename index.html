@@ -30,15 +30,19 @@
     margin-bottom: 20px;
   }
   a {
-    display: block;
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 18px;
-    color: #009688; /* Same color for all links */
+    color: #009688;
     text-decoration: none;
+    border: 2px solid #009688;
+    border-radius: 5px;
     margin-bottom: 10px;
-    transition: color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   a:hover {
-    color: #007f66; /* Darker shade on hover */
+    background-color: #009688;
+    color: #fff;
   }
   .home-link {
     font-weight: bold;
@@ -48,7 +52,7 @@
 <body>
   <div class="container">
     <h1>TSA FORMS</h1>
-    <p>Welcome to our TSA Forms page. Below are the forms available for download:</p>
+    <p>Welcome to our TSA Forms page. Below are the forms That where completed:</p>
     <a class="home-link" href="https://tsa-real-final.vercel.app/">Home</a>
     <a href="1025009-Website-Design-POWL - Speed Cuber (1).pdf">Plan of Work Log</a>
     <a href="1025009-Website-Design-Copyright-Checklist - Speed Cuber (1).pdf">Copyright Checklist</a>
